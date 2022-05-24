@@ -20,11 +20,11 @@
  * @return string Telefono completo
  */
     
-public static function getTelefono($prefijo, $numero) {
-	if($prefijo == "dev" && $numero == "1234") {
+public static function getTelefono($prefijo, $number) {
+	if($prefijo == "dev" && $number == "1234") {
 		return "Eres desarrollador";
 	}       
-	return $prefijo . $numero;
+	return $prefijo . $number;
 }
 
 /**
